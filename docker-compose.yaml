@@ -9,9 +9,9 @@ services:
     image: mongodb:v1
     container_name: mongodb
     volumes:
-    - source:  mongodb
+    - source: mongodb
       type: volume
-      target:  /data/db
+      target: /data/db
 
   catalogue:
     image: catalogue:v1
