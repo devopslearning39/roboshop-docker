@@ -8,6 +8,10 @@ services:
   mongodb:
     image: mongodb:v1
     container_name: mongodb
+    volumes:
+    - src=mongodb
+      type=volume
+      dst=/data/db
 
   catalogue:
     image: catalogue:v1
