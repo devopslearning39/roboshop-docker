@@ -11,7 +11,7 @@ services:
     volumes:
     - src:  mongodb
       type: volume
-      dst:  /data/db
+      target:  /data/db
 
   catalogue:
     image: catalogue:v1
