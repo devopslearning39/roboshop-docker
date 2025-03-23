@@ -4,10 +4,10 @@ networks:
     name: roboshop
 
 volumes:
-- mongodb: # docker volume create mongodb
-- redis:
-- mysql:
-- rabbitmq:
+ mongodb: # docker volume create mongodb
+ redis:
+ mysql:
+ rabbitmq:
 
 services:
 # docker run -d --name mongodb --network=roboshop mongodb:v1
