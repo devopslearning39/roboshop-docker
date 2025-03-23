@@ -41,7 +41,7 @@ services:
   redis:
     image: redis
     container_name: redis
-  volumes:
+    volumes:
     - source: redis
       target: /data
       type: volume
